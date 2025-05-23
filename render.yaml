@@ -3,7 +3,7 @@ services:
     name: n8n
     env: docker
     plan: free
-    dockerfilePath: ./docker/images/n8n/Dockerfile
+    dockerfilePath: ./Dockerfile
     buildCommand: ""
     startCommand: "n8n start"
     envVars:
