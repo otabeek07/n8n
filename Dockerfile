@@ -1,0 +1,8 @@
+FROM n8nio/n8n
+
+ENV GENERIC_TIMEZONE=Europe/Tashkent
+ENV N8N_BASIC_AUTH_ACTIVE=true
+ENV N8N_BASIC_AUTH_USER=otabek
+ENV N8N_BASIC_AUTH_PASSWORD=strongpassword123
+
+CMD ["n8n", "start"]
